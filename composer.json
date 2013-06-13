@@ -1,0 +1,14 @@
+{
+    "name": "asaokamei/wscore.http",
+    "description": "classes for http.",
+    "authors": [
+        {
+            "name": "Asao",
+            "email": "kamei@workspot.jp"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
