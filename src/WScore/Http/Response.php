@@ -23,7 +23,7 @@ class Response
     /** 
      * @var string ResponseHelper 
      */
-    protected $helper = '\WScore\Web\Http\ResponseHelper';
+    protected $helper = '\WScore\Http\ResponseHelper';
 
     /**
      * @param string $content
