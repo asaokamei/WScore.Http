@@ -1,13 +1,13 @@
 <?php
-namespace WScore\tests\Http;
+namespace WScoreTests\Http;
 
-use WScore\Web\Http\Request;
+use WScore\Http\Request;
 
-require_once( __DIR__ . '/../../../autoload.php' );
+require_once( __DIR__ . '/../../autoload.php' );
 
 class RequestTest extends \PHPUnit_Framework_TestCase
 {
-    /** @var \WScore\Web\Http\Request */
+    /** @var \WScore\Http\Request */
     public $request;
 
     public $server = array(
@@ -25,7 +25,7 @@ class RequestTest extends \PHPUnit_Framework_TestCase
 
     function test1()
     {
-        $this->assertEquals( 'WScore\Web\Http\Request', get_class( $this->request ) );
+        $this->assertEquals( 'WScore\Http\Request', get_class( $this->request ) );
     }
     
     function test_basic_uri()
